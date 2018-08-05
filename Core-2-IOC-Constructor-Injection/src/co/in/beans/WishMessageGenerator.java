@@ -23,6 +23,7 @@ public class WishMessageGenerator{
 			}//setDate method
 	
 	
+					@SuppressWarnings("deprecation")
 					public String generateWishMessage(String user) {
 		
 						int hour=0;

@@ -8,6 +8,7 @@ import org.springframework.core.io.Resource;
 
 import com.nt.beans.WishMessageGenerator;
 
+@SuppressWarnings({ "deprecation", "unused" })
 public class ConstructorInjectionTest {
 
 	public static void main(String[] args) {

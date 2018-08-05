@@ -5,7 +5,9 @@ import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.core.io.ClassPathResource;
 import com.nt.beans.Viechle;
 
+@SuppressWarnings("deprecation")
 public class StrategyDPTest {
+	
 	public static void main(String[] args) {
 		BeanFactory factory=null;
 		Viechle viechle=null,viechle1=null;

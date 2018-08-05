@@ -6,6 +6,7 @@ import org.springframework.core.io.ClassPathResource;
 
 import sa.nt.beans.Flipkart;
 
+@SuppressWarnings("deprecation")
 public class TightClouplingTest {
 	public static void main(String[] args) {
 		BeanFactory factory=null;

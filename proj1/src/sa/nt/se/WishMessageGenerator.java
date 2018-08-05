@@ -9,6 +9,7 @@ public void setDate(Date date) {
 }
 //business method
 
+@SuppressWarnings("deprecation")
 public String generationWishMsg(String name) {
 	int hour=0;
 	//get current hour

@@ -7,6 +7,7 @@ import org.springframework.core.io.Resource;
 import sa.nt.se.WishMessageGenerator;
 
 
+@SuppressWarnings("deprecation")
 public class SetterInjectionTest {
 	public static void main(String[] args) {
 		Resource res=null;

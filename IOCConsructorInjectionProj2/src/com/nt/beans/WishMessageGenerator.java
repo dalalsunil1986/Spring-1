@@ -17,6 +17,7 @@ public class WishMessageGenerator {
 
 	
 	
+	@SuppressWarnings("deprecation")
 	public String generateWishMessage(String user){
 		int hour=0;
 		//get current hour of the day

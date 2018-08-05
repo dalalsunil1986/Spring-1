@@ -23,6 +23,7 @@ import org.springframework.core.io.ClassPathResource;
 
 import be.tc.beans.Flipkart;
 
+@SuppressWarnings("deprecation")
 public class TightCouplingTest {
 	
 	public static void main(String[] agrs) {

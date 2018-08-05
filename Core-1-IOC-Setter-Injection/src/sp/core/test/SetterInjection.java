@@ -19,6 +19,7 @@ import org.springframework.core.io.Resource;
 import sp.core.beans.WishMessageGenerator;
 
 
+@SuppressWarnings("deprecation")
 public class SetterInjection {
 	
 	public static void main(String[] args) {
