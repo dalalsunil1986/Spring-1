@@ -25,6 +25,7 @@ import org.springframework.core.io.Resource;
 import co.in.beans.WishMessageGenerator;
 
 
+@SuppressWarnings({ "deprecation", "unused" })
 public class ConstructorInjection {
 
 	public static void main(String[] args) {
