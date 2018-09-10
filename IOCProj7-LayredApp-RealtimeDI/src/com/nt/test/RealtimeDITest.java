@@ -9,8 +9,10 @@ import org.springframework.core.io.ClassPathResource;
 import com.nt.controller.MainController;
 import com.nt.vo.StudentVO;
 
+@SuppressWarnings("deprecation")
 public class RealtimeDITest {
 
+	@SuppressWarnings({ "resource" })
 	public static void main(String[] args) {
 		BeanFactory factory=null;
 		MainController controller=null;

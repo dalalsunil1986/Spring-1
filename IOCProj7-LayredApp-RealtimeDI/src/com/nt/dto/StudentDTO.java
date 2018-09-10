@@ -3,6 +3,10 @@ package com.nt.dto;
 import java.io.Serializable;
 
 public class StudentDTO implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int sno;
 	private String sname;
 	private int m1,m2,m3;

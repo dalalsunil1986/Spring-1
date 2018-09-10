@@ -9,6 +9,7 @@ import org.springframework.core.io.ClassPathResource;
 import com.nt.controller.MainController;
 import com.nt.vo.StudentVO;
 
+@SuppressWarnings("deprecation")
 public class RealtimeDITest {
 
 	public static void main(String[] args) {

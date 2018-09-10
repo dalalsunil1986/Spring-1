@@ -25,7 +25,8 @@ import org.springframework.core.io.Resource;
 import co.in.beans.WishMessageGenerator;
 
 
-@SuppressWarnings({ "deprecation", "unused" })
+@SuppressWarnings({ "deprecation", "unused" }) 
+
 public class ConstructorInjection {
 
 	public static void main(String[] args) {
@@ -44,13 +45,13 @@ public class ConstructorInjection {
 			
 				//Locate SpringBean Configuration File
 			
-				//res=new FileSystemResource("src/co/in/cfgs/applicationContext.xml");
+				res=new FileSystemResource("src/co/in/cfgs/applicationContext.xml");
 			
 				//res=new FileSystemResource("E:/java/java programs/spring/Core-2-IOC-Constructor-Injection/src/co/in/cfgs/applicationContext.xml");//Location of file path
 				
 				//res=new ClassPathResource("co/in/cfgs/applicationContext.xml");
 			
-				res=new ClassPathResource("applicationContext.xml");//Build path-->Configure build path--> add Class Folder
+				//res=new ClassPathResource("applicationContext.xml");//Build path-->Configure build path--> add Class Folder
 				
 				//Create IOC Container
 				

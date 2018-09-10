@@ -7,7 +7,6 @@
 	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-context-support-5.0.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-core-5.0.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-expression-5.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="src/co/in/cfgs"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_92"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -6,6 +6,7 @@ import org.springframework.core.io.ClassPathResource;
 
 import com.nt.beans.Flipkart;
 
+@SuppressWarnings("deprecation")
 public class BeanCollabarationLCTest {
 
 	public static void main(String[] args) {
