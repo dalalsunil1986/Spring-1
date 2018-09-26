@@ -46,6 +46,9 @@ public class RealtimeDITest {
 			System.out.println("Result::::"+controller.process(vo));
 		}
 		catch(Exception e){
+			
+			e.printStackTrace();
+			
 			System.out.println("Internal Problem::"+e.getMessage());
 		}
 
