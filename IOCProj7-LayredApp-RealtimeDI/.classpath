@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringIOCLIB"/>
 	<classpathentry kind="lib" path="E:/spring 5.xSoft/spring-framework-5.0.3.RELEASE/libs/spring-jdbc-5.0.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar"/>
+=======
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_92"/>
+	<classpathentry kind="lib" path="D:/app/admin/product/11.2.0/dbhome_1/jdbc/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Apache Commons Logging 1.2/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-beans-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-context-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-context-support-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-core-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-expression-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-jdbc-5.0.6.RELEASE.jar"/>
+>>>>>>> refs/remotes/origin/master
 	<classpathentry kind="output" path="bin"/>
 </classpath>

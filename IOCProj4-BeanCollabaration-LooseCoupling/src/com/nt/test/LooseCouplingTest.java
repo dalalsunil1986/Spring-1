@@ -6,8 +6,15 @@ import org.springframework.core.io.ClassPathResource;
 
 import com.nt.beans.Flipkart;
 
+<<<<<<< HEAD
 public class LooseCouplingTest {
 
+=======
+@SuppressWarnings("deprecation")
+public class LooseCouplingTest {
+
+	
+>>>>>>> refs/remotes/origin/master
 	public static void main(String[] args) {
 		BeanFactory factory=null;
 		Flipkart fpkt=null;

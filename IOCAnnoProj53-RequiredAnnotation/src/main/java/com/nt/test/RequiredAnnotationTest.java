@@ -9,6 +9,7 @@ import com.nt.beans.Student;
 public class RequiredAnnotationTest {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		ApplicationContext ctx=null;
 		Student st=null;
 		//create IOC container
@@ -23,3 +24,28 @@ public class RequiredAnnotationTest {
 		((AbstractApplicationContext) ctx).close();
 	}//main
 }//class
+=======
+		
+		
+		ApplicationContext ctx=null;
+		
+		Student st=null;
+		
+		//Create IOC Container
+		
+		ctx=new ClassPathXmlApplicationContext("com/nt/cfgs/applicationContext.xml");
+		
+		//Get Target Bean Class Object
+		
+		st=ctx.getBean("stud",Student.class);
+		
+		System.out.println(st);
+		
+		//Close container
+		
+		((AbstractApplicationContext) ctx).close();
+
+	}
+
+}
+>>>>>>> refs/remotes/origin/master

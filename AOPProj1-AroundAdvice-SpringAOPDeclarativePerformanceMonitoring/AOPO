@@ -1,0 +1,16 @@
+Proxy obj class name::class com.nt.service.IntrestAmountCalculator$$EnhancerBySpringCGLIB$$c4998f80  --->super classclass com.nt.service.IntrestAmountCalculator
+Entering into calcSimpleIntrAmount with args[1000001.0, 2.0, 12.0]
+IAC::calcSimpleIntrAmount(-,-,-)
+Exiting  calcSimpleIntrAmount with args[1000001.0, 2.0, 12.0]
+calcSimpleIntrAmount with args[1000001.0, 2.0, 12.0] has taken 39  ms..
+from taget method
+Simple Intr Amount::242400.23
+.....................................
+Simple Intr Amount::242400.23
+-------------------------------------------
+Entering into calcCompoundIntrAmount with args[1000001.0, 2.0, 12.0]
+IAC::calcCompoundIntrAmount(-,-,-)
+Exiting  calcCompoundIntrAmount with args[1000001.0, 2.0, 12.0]
+calcCompoundIntrAmount with args[1000001.0, 2.0, 12.0] has taken 1  ms..
+from taget method
+Compound Intr Amount::270924.2

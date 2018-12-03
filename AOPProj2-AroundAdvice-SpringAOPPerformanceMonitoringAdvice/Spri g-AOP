@@ -1,0 +1,50 @@
+Proxy Object classname::class com.nt.service.IntrAmtCalculator
+Target class::Method
+calcSimpleIntrAmtwith args[1000000.0, 2.0, 12.0]has taken17ms to complete execution
+Interest Amount (Simple)::2.4E7
+equals
+toString
+hashCode
+clone
+indexOf
+indexOf
+newInstance
+newInstance
+newInstance
+isFrozen
+calcSimpleIntrAmt
+setCallbacks
+getCallbacks
+toProxyConfigString
+getProxiedInterfaces
+getAdvisors
+getTargetClass
+addAdvisor
+addAdvisor
+setTargetSource
+getTargetSource
+setPreFiltered
+isProxyTargetClass
+isPreFiltered
+setExposeProxy
+isExposeProxy
+addAdvice
+addAdvice
+replaceAdvisor
+removeAdvisor
+removeAdvisor
+isInterfaceProxied
+removeAdvice
+CGLIB$calcSimpleIntrAmt$0
+CGLIB$BIND_CALLBACKS
+CGLIB$findMethodProxy
+CGLIB$SET_THREAD_CALLBACKS
+CGLIB$SET_STATIC_CALLBACKS
+CGLIB$toString$2
+CGLIB$hashCode$3
+CGLIB$STATICHOOK1
+CGLIB$clone$4
+CGLIB$STATICHOOK2
+CGLIB$equals$1
+setCallback
+getCallback

@@ -5,6 +5,7 @@ import com.nt.service.ExaminationService;
 import com.nt.vo.StudentVO;
 
 public class MainController {
+<<<<<<< HEAD
 	private ExaminationService service;
 
 	public MainController(ExaminationService service) {
@@ -24,6 +25,42 @@ public class MainController {
 		//use Service
 		result=service.generateResult(dto);
 		return result;
+=======
+	
+	private ExaminationService service;
+
+	public MainController(ExaminationService service) {
+		
+		this.service = service;
+	}
+	
+	public String process(StudentVO vo)throws Exception{
+		
+		StudentDTO dto=null;
+		
+		String result=null;
+		
+		//Convert VO class object to DTO class object
+		
+		dto=new StudentDTO();
+		
+		dto.setSno(Integer.parseInt(vo.getSno()));
+		
+		dto.setSname(vo.getSname());
+		
+		dto.setM1(Integer.parseInt(vo.getM1()));
+		
+		dto.setM2(Integer.parseInt(vo.getM2()));
+		
+		dto.setM3(Integer.parseInt(vo.getM3()));
+		
+		//use Service
+		
+		result=service.generateResult(dto);
+		
+		return result;
+		
+>>>>>>> refs/remotes/origin/master
 	}
 	
 

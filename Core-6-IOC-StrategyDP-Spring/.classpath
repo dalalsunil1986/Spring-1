@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_92">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-beans-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-context-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-context-support-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-core-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Index of releaseorgspringframeworkspring5.0.6.RELEASE/dist/spring-framework-5.0.6.RELEASE/libs/spring-expression-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/java/java programs/spring/Apache Commons Logging 1.2/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

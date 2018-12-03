@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<<<<<<< HEAD
 	xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
@@ -19,5 +20,41 @@
    <!-- cfg RequiredAnnotation Bean PostProcessor -->
   <!-- <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/> --> 
     <context:annotation-config/>
+=======
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+<!-- Dependent Bean Configuration -->
+
+<bean id="material" class="com.nt.beans.CourseMaterial">
+
+<!--  <property name="name" value="Spring"/>-->
+
+<property name="pagesCount" value="1000"/>
+
+</bean>
+
+<!-- Target Bean Configuration -->
+
+<bean id="stud" class="com.nt.beans.Student">
+
+ <property name="sno" value="158"></property>
+
+<property name="name" value="Sankar"></property>
+
+<property name="material" ref="material"></property>
+
+</bean>
+
+<!-- Configure Required Annotation Bean PostProcessor  -->
+
+<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"></bean>
+
+<context:annotation-config></context:annotation-config>
+
+>>>>>>> refs/remotes/origin/master
 
 </beans>
